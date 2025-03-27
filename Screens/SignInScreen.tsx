@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { supabase } from 'supabase';
+import { supabase } from "../supabase";
 
 const SignInScreen = () => {
     const navigation = useNavigation();
